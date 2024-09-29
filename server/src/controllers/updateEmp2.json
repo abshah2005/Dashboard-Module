@@ -1,0 +1,170 @@
+{
+    "info": {
+      "name": "Update Employee Collection",
+      "description": "Collection to test the updateEmployee controller with file uploads",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Update Employee",
+        "request": {
+          "url": "http://your-api-url/api/employees/update", 
+          "method": "PUT",
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer your-token-here", 
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "formdata",
+            "formdata": [
+              {
+                "key": "employeeId",
+                "value": "employeeIdHere", 
+                "type": "text"
+              },
+              {
+                "key": "firstname",
+                "value": "John",
+                "type": "text"
+              },
+              {
+                "key": "lastname",
+                "value": "Doe",
+                "type": "text"
+              },
+              {
+                "key": "roleId",
+                "value": "roleIdHere", 
+                "type": "text"
+              },
+              {
+                "key": "DepartmentId",
+                "value": "departmentIdHere", 
+                "type": "text"
+              },
+              {
+                "key": "EmployeeId",
+                "value": "selfAssignedIdHere", // Replace with actual Employee ID
+                "type": "text"
+              },
+              {
+                "key": "MobileNumber",
+                "value": "1234567890",
+                "type": "text"
+              },
+              {
+                "key": "PersonalEmail",
+                "value": "johndoe@example.com",
+                "type": "text"
+              },
+              {
+                "key": "DateofBirth",
+                "value": "1990-01-01",
+                "type": "text"
+              },
+              {
+                "key": "status",
+                "value": "Active",
+                "type": "text"
+              },
+              {
+                "key": "MaritalStatus",
+                "value": "Single",
+                "type": "text"
+              },
+              {
+                "key": "Nationality",
+                "value": "American",
+                "type": "text"
+              },
+              {
+                "key": "Gender",
+                "value": "Male",
+                "type": "text"
+              },
+              {
+                "key": "Address",
+                "value": "123 Main St",
+                "type": "text"
+              },
+              {
+                "key": "City",
+                "value": "New York",
+                "type": "text"
+              },
+              {
+                "key": "State",
+                "value": "NY",
+                "type": "text"
+              },
+              {
+                "key": "ZipCode",
+                "value": "10001",
+                "type": "text"
+              },
+              {
+                "key": "EmployeeType",
+                "value": "Full-time",
+                "type": "text"
+              },
+              {
+                "key": "ProfessionalEmail",
+                "value": "john.doe@company.com",
+                "type": "text"
+              },
+              {
+                "key": "Designation",
+                "value": "Software Engineer",
+                "type": "text"
+              },
+              {
+                "key": "joiningDate",
+                "value": "2022-01-01",
+                "type": "text"
+              },
+              {
+                "key": "professionalUsername",
+                "value": "johndoe",
+                "type": "text"
+              },
+              {
+                "key": "Username",
+                "value": "johnny",
+                "type": "text"
+              },
+              {
+                "key": "Password",
+                "value": "yourpassword", // Use a valid password
+                "type": "text"
+              },
+              {
+                "key": "AppointmentLetter",
+                "type": "file",
+                "src": "path/to/your/appointment_letter.pdf" // Replace with the path to your file
+              },
+              {
+                "key": "SalarySlip",
+                "type": "file",
+                "src": "path/to/your/salary_slip.pdf" // Replace with the path to your file
+              },
+              {
+                "key": "RelievingLetter",
+                "type": "file",
+                "src": "path/to/your/relieving_letter.pdf" // Replace with the path to your file
+              },
+              {
+                "key": "ExperienceLetter",
+                "type": "file",
+                "src": "path/to/your/experience_letter.pdf" // Replace with the path to your file
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
